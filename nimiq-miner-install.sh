@@ -15,8 +15,8 @@ cd ~
 
 
 ## Install yarn/gulp
-# sudo npm install -g yarn
-# sudo yarn global add gulp
+sudo npm install -g yarn
+sudo yarn global add gulp
 
 ## Clone nimiq core
 # sudo git clone https://github.com/nimiq-network/core
