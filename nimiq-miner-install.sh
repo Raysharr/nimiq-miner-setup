@@ -31,7 +31,7 @@ echo "/home/$USER/skypool-nimiq-v1.2.0-linux-x64-broadwell"
 cd "/home/$USER/skypool-nimiq-v1.2.0-linux-x64-broadwell"
 
 ## Add your address to Skypool
-sed -i "s/NQ48 8CKH BA24 2VR3 N249 N8MN J5XX 74DB 5XJ8/${$1}/g" config.txt
+sed -i "s/NQ48 8CKH BA24 2VR3 N249 N8MN J5XX 74DB 5XJ8/$1/g" config.txt
 
 ## Start mining
 ./skypool-node-client
