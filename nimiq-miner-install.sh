@@ -27,6 +27,7 @@ sudo apt install unzip
 unzip skypool-nimiq-v1.2.0-linux-x64-broadwell.zip
 
 ## Install Skypool
+echo "/home/$USER/skypool-nimiq-v1.2.0-linux-x64-broadwell"
 cd "/home/$USER/skypool-nimiq-v1.2.0-linux-x64-broadwell"
 
 ## Add your address to Skypool
