@@ -22,12 +22,12 @@ sudo yarn global add gulp
 sudo git clone https://github.com/nimiq-network/core
 
 ## Get Skypool
-sudo wget https://github.com/skypool-org/skypool-nimiq-miner/releases/download/v1.2.0/skypool-nimiq-v1.2.0-linux-x64-broadwell.zip
+sudo wget https://github.com/skypool-org/skypool-nimiq-miner/releases/download/v1.2.0/skypool-nimiq-v1.2.0-linux-x64-fast.zip
 sudo apt install unzip
-unzip skypool-nimiq-v1.2.0-linux-x64-broadwell.zip
+unzip skypool-nimiq-v1.2.0-linux-x64-fast.zip
 
 ## Install Skypool
-cd "/home/$USER/skypool-nimiq-v1.2.0-linux-x64-broadwell"
+cd "/home/$USER/skypool-nimiq-v1.2.0-linux-x64-fast"
 
 ## Add your address to Skypool
 sed -i "s/NQ48 8CKH BA24 2VR3 N249 N8MN J5XX 74DB 5XJ8/$1/g" config.txt
